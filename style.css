@@ -1,0 +1,93 @@
+@charset 'UTF-8';
+
+/* ====== Estilos gerais ====== */
+body {
+    background: rgb(70, 142, 236);
+    font: normal 12pt Arial, sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== Cabeçalho ====== */
+header {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ====== Área principal ====== */
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    width: 90%;
+    margin: 30px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+/* ====== Elementos internos ====== */
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+/* ====== Campo de entrada ====== */
+input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100px;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* ====== Botões ====== */
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: #468eee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-left: 5px;
+}
+
+input[type="button"]:hover {
+    background-color: #356fbd;
+}
+
+/* ====== Resultado ====== */
+#res {
+    font-weight: bold;
+    font-size: 1.0em;
+    padding-top: 15px;
+}
+
+/* ====== Select  ====== */
+select {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 1em;
+    font-family: monospace;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+select#flista{
+    width: 150px;
+}
+
+/* ====== Rodapé ====== */
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 20px 0;
+    margin-top: 40px;
+}
